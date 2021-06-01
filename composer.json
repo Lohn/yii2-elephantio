@@ -12,5 +12,8 @@
 	"require": {
 		"php": ">=7.1.0",
 		"ashiina/socket.io-emitter": "*"
+	},
+	"autoload": {
+		"psr-4": {"lohn\\yii2-socketio-redis-emitter\\": ""}
 	}
 }
