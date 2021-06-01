@@ -21,7 +21,7 @@ class RedisEmitter extends Component
 		$port = $this->port;
 		$port = $this->db;
 		$redis = new \Redis();
-		$redis->connect($server, $host);
+		$redis->connect($server, $port);
 		$redis->select($db);
 		$this->_client =new SocketIO\Emitter($redis);
 	}
