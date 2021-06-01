@@ -1,5 +1,5 @@
 <?php
-namespace lohn\yii2-socketio-redis-emitter;
+namespace lohn\redisemitter;
 use yii\base\Component;
 
 class RedisEmitter extends Component
