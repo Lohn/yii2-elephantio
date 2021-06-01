@@ -14,6 +14,6 @@
 		"ashiina/socket.io-emitter": "*"
 	},
 	"autoload": {
-		"psr-4": {"lohn\\yii2-socketio-redis-emitter\\": ""}
+		"psr-4": {"lohn\\redisemitter\\": ""}
 	}
 }
