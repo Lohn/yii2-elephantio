@@ -1,6 +1,7 @@
 <?php
 namespace lohn\redisemitter;
 use yii\base\Component;
+use SocketIO\Emitter;
 
 class RedisEmitter extends Component
 {
@@ -23,7 +24,7 @@ class RedisEmitter extends Component
 		$redis = new \Redis();
 		$redis->connect($server, $port);
 		$redis->select($db);
-		$this->_client =new SocketIO\Emitter($redis);
+		$this->_client = new Emitter($redis);
 	}
 	public function emit($event, $params = [], $namespace = null)
 	{
