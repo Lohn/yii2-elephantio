@@ -1,11 +1,11 @@
-# yii2-elephantio
-Yii2 Elephant IO implementation.
+# yii2-socketio-redis-emitter
+Yii2 socket.io Redis Emitter.
 
 This is a really dirt simple extension which just wraps the Elephant IO module into a Yii2 Component.
 
 You can configure it in your application configuration like so:
 
-	'elephantio' => [
+	'redisemitter' => [
 		'class' => 'sammaye\elephantio\ElephantIo',
 		'host' => 'http://localhost:3000'
 	]
