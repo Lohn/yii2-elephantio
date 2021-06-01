@@ -1,19 +1,16 @@
 {
-	"name": "sammaye/yii2-elephantio",
-	"description": "A plugin for using Elephant IO with Yii2",
-	"keywords": ["yii2", "framework", "elephantio", "socket", "websocket"],
-	"homepage": "http://www.sammaye.wordpress.com/",
+	"name": "lohn/yii2-php-redis-emitter",
+	"description": "A plugin for using Redis Emitter with Yii2",
+	"keywords": ["yii2", "framework", "redis", "socket", "websocket"],
+	"homepage": "http://lo.hn/",
 	"type": "project",
 	"license": "BSD-3-Clause",
 	"support": {
-		"issues": "https://github.com/Sammaye/yii2-elephantio/issues",
-		"source": "https://github.com/Sammaye/yii2-elephantio"
+		"issues": "https://github.com/lohn/yii2-php-redis-emitter/issues",
+		"source": "https://github.com/lohn/yii2-php-redis-emitter"
 	},
 	"require": {
-		"php": ">=5.4.0",
-		"wisembly/elephant.io": "*"
-	},
-	"autoload": {
-		"psr-4": {"sammaye\\elephantio\\": ""}
+		"php": ">=7.1.0",
+		"ashiina/socket.io-emitter": "*"
 	}
 }
