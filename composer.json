@@ -1,5 +1,5 @@
 {
-	"name": "lohn/yii2-php-redis-emitter",
+	"name": "lohn/yii2-socketio-redis-emitter",
 	"description": "A plugin for using Redis Emitter with Yii2",
 	"keywords": ["yii2", "framework", "redis", "socket", "websocket"],
 	"homepage": "http://lo.hn/",
