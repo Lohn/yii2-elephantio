@@ -19,7 +19,7 @@ class RedisEmitter extends Component
 		parent::init();
 		$server = $this->server;
 		$port = $this->port;
-		$port = $this->db;
+		$db = $this->db;
 		$redis = new \Redis();
 		$redis->connect($server, $port);
 		$redis->select($db);
