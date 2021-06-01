@@ -28,7 +28,7 @@ class RedisEmitter extends Component
 	}
 	public function emit($event, $params = [], $namespace = null)
 	{
-		return $this->_client->emit($event, $params);
+		return $this->_client->emitEvent($event, $params);
 	}
 	public function read()
 	{
